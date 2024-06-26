@@ -1,0 +1,10 @@
+# Table of contents
+
+* [Page](README.md)
+* [Prompts](prompts/README.md)
+  * [Prompt Design - Best Practices](prompts/prompt-design-best-practices.md)
+  * [Ideation with Generative Models](prompts/ideation-with-generative-models.md)
+  * [Question Answering with Generative Models](prompts/question-answering-with-generative-models.md)
+  * [Text Classification with Generative Models](prompts/text-classification-with-generative-models.md)
+  * [Text Extraction with Generative Models](prompts/text-extraction-with-generative-models.md)
+  * [Text Summarization with Generative Models](prompts/text-summarization-with-generative-models.md)
