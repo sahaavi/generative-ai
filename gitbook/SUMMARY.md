@@ -9,3 +9,4 @@
   * [Text Summarization with Generative Models](prompts/text-summarization-with-generative-models.md)
 * [Gemini](gemini/README.md)
   * [Intro to Gemini Python](gemini/intro-to-gemini-python.md)
+  * [Gemini for Application Developers](gemini/gemini-for-application-developers.md)
