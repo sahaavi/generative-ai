@@ -1,4 +1,4 @@
-# Gemini for Data Scientists and Analysts
+# Analyze Data with Gemini Assistance
 
 ### Task 1. Configure your environment and account <a href="#step4" id="step4"></a>
 

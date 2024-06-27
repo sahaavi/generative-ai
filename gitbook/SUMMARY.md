@@ -10,4 +10,6 @@
 * [Gemini](gemini/README.md)
   * [Intro to Gemini Python](gemini/intro-to-gemini-python.md)
   * [Gemini for Application Developers](gemini/gemini-for-application-developers.md)
-  * [Gemini for Data Scientists and Analysts](gemini/gemini-for-data-scientists-and-analysts.md)
+  * [Gemini for Data Scientists and Analysts](gemini/gemini-for-data-scientists-and-analysts/README.md)
+    * [Analyze Data with Gemini Assistance](gemini/gemini-for-data-scientists-and-analysts/analyze-data-with-gemini-assistance.md)
+    * [Gemini for Data Scientists](gemini/gemini-for-data-scientists-and-analysts/gemini-for-data-scientists.md)
