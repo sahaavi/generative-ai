@@ -2,7 +2,7 @@
 
 ### Contact Center Artificial Intelligence (CCAI)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Purpose:** Enhance operational efficiency in contact centers using AI with minimal AI expertise required.
 * **Integration:** Seamlessly integrates with existing company infrastructure.
