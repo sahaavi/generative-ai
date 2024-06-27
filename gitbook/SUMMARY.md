@@ -13,3 +13,7 @@
   * [Gemini for Data Scientists and Analysts](gemini/gemini-for-data-scientists-and-analysts/README.md)
     * [Analyze Data with Gemini Assistance](gemini/gemini-for-data-scientists-and-analysts/analyze-data-with-gemini-assistance.md)
     * [Gemini for Data Scientists](gemini/gemini-for-data-scientists-and-analysts/gemini-for-data-scientists.md)
+
+## Group 1
+
+* [NLP](group-1/nlp.md)
