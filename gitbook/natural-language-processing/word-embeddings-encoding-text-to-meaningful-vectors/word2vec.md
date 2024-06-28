@@ -104,3 +104,7 @@ Next, you train the neural network to learn the embedding matrix E. Compared to 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 Keras in TensorFlow packages all the details and you only need to call the pre-trained models and tune the hyperparameters. In the setup you must import embedding from keras. Then you use one statement to create an embedding layer to embed the words in the vocabulary into certain dimensional vectors. The embedding layer can be understood as a lookup table that maps from specific words (integer indices such as one-hot encoder) to dense vectors (their embeddings). The dimensionality (or width) of the embedding is a parameter that you can experiment with to see what works well for your problem, much in the same way you would experiment with the number of neurons in a dense layer. When you create an embedding layer, the weights for the embedding are randomly initialized (just like any other layer). During training, they are gradually adjusted by using backpropagation. Once trained, the learned word embeddings will roughly encode similarities between words (as they were learned for the specific problem your model is trained on).
+
+### Resources
+
+\[Word Embedding and Word2Vec, Clearly Explained!!!]\([https://www.youtube.com/watch?app=desktop\&v=viZrOnJclY0](https://www.youtube.com/watch?app=desktop\&v=viZrOnJclY0))
