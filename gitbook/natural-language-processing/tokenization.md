@@ -14,7 +14,7 @@
    * **Question:** How do you define smaller language units?
    * **Answer:** Tokens can exist at different levels, such as characters, subwords, words, phrases, and sentences.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Types of Tokens:**
 
@@ -36,7 +36,7 @@
 
 **Further Preparation: Preprocessing:**
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Lowercasing:** Convert all text to lowercase.
 * **Stemming:** Reduce words to their root forms.
@@ -47,7 +47,7 @@
 
 **Using TensorFlow for Preprocessing:**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **TextVectorization API:**
   * **Function:** Maps text features to integer sequences, including preprocessing, tokenization, and vectorization.
