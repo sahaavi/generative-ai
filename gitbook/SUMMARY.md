@@ -12,7 +12,7 @@
   * [Bag of Words](natural-language-processing/bag-of-words.md)
   * [Word Embeddings: Encoding Text to Meaningful Vectors](natural-language-processing/word-embeddings-encoding-text-to-meaningful-vectors/README.md)
     * [Word2vec](natural-language-processing/word-embeddings-encoding-text-to-meaningful-vectors/word2vec.md)
-  * [Page](natural-language-processing/page.md)
+  * [Transfer Learning](natural-language-processing/transfer-learning.md)
   * [NLP Architecture on GCP](natural-language-processing/nlp-architecture-on-gcp.md)
   * [NLP APIs on GCP](natural-language-processing/nlp-apis-on-gcp.md)
   * [NLP Solutions from GCP](natural-language-processing/nlp-solutions-from-gcp.md)
