@@ -200,3 +200,13 @@ print(generation_model.predict(prompt=prompt, max_output_tokens=256).text)
 #### **Choosing between zero-shot, one-shot, few-shot prompting methods**
 
 Which prompt technique to use will solely depends on your goal. The zero-shot prompts are more open-ended and can give you creative answers, while one-shot and few-shot prompts teach the model how to behave so you can get more predictable answers that are consistent with the examples provided.
+
+* Language models perform well with formatted text; using structured text like pseudocode can improve results
+* Decompose tasks into smaller pieces in your prompt to make the language model generate each piece; automate decomposition for better performance
+* Elicit reasoning capabilities from the model by carefully tuning the prompt, such as using "Let's think step-by-step"
+* Ensemble results of multiple models for more accurate answers and use randomness for greater heterogeneity in responses
+* Combine prompting techniques (e.g., few-shot, Chain of Thought, ensembling) to increase performance, but be mindful of the impact on latency and compute costs
+
+### Resources
+
+\[Learn to Spell: Prompt Engineering]\([https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/prompt-engineering/](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/prompt-engineering/)) ([https://youtu.be/JnBHR\_yL2w8?si=KRM8Aj7sz9ID78d2](https://youtu.be/JnBHR\_yL2w8?si=KRM8Aj7sz9ID78d2))
