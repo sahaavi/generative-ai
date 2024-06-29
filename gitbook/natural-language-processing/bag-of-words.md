@@ -2,7 +2,7 @@
 
 **Challenge:** How to represent text in a numeric format while retaining its meaning.
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Subproblems:**
 
