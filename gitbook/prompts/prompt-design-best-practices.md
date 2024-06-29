@@ -206,7 +206,3 @@ Which prompt technique to use will solely depends on your goal. The zero-shot pr
 * Elicit reasoning capabilities from the model by carefully tuning the prompt, such as using "Let's think step-by-step"
 * Ensemble results of multiple models for more accurate answers and use randomness for greater heterogeneity in responses
 * Combine prompting techniques (e.g., few-shot, Chain of Thought, ensembling) to increase performance, but be mindful of the impact on latency and compute costs
-
-### Resources
-
-\[Learn to Spell: Prompt Engineering]\([https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/prompt-engineering/](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/prompt-engineering/)) ([https://youtu.be/JnBHR\_yL2w8?si=KRM8Aj7sz9ID78d2](https://youtu.be/JnBHR\_yL2w8?si=KRM8Aj7sz9ID78d2))

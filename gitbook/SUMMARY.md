@@ -11,6 +11,7 @@
   * [NLP Solutions from GCP](natural-language-processing/nlp-solutions-from-gcp.md)
   * [NLP with AutoML on GCP](natural-language-processing/nlp-with-automl-on-gcp.md)
   * [NLP workflow on GCP](natural-language-processing/nlp-workflow-on-gcp.md)
+* [Large Language Model (LLM)](large-language-model-llm.md)
 * [Prompts](<README (1).md>)
   * [Prompt Design - Best Practices](prompts/prompt-design-best-practices.md)
   * [Ideation with Generative Models](prompts/ideation-with-generative-models.md)
@@ -25,4 +26,3 @@
   * [Gemini for Data Scientists and Analysts](gemini/gemini-for-data-scientists-and-analysts/README.md)
     * [Analyze Data with Gemini Assistance](gemini/gemini-for-data-scientists-and-analysts/analyze-data-with-gemini-assistance.md)
     * [Gemini for Data Scientists](gemini/gemini-for-data-scientists-and-analysts/gemini-for-data-scientists.md)
-* [Large Language Model (LLM)](large-language-model-llm.md)

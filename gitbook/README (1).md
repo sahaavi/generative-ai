@@ -181,6 +181,11 @@ from vertexai.language_models import ChatModel
 
 ```python
 generation_model = TextGenerationModel.from_pretrained("text-bison")
+
 ```
 
-\
+### Resources
+
+\[Learn to Spell: Prompt Engineering]\([https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/prompt-engineering/](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/prompt-engineering/)) ([https://youtu.be/JnBHR\_yL2w8?si=KRM8Aj7sz9ID78d2](https://youtu.be/JnBHR\_yL2w8?si=KRM8Aj7sz9ID78d2))
+
+\[Prompting and Prompt Engineering]\([https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/free\_courses/Applied\_LLMs\_Mastery\_2024/week2\_prompting.md](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/free\_courses/Applied\_LLMs\_Mastery\_2024/week2\_prompting.md))
