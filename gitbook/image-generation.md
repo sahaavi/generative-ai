@@ -22,7 +22,7 @@ Let's see the Unconditioned generation:
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-The goal is that by training a model to denoise that model would be able take pure noise and from it synthesize a noble image. Let's break it down.
+The goal is that by training a model to denoise that model would be able take pure noise and from it synthesize a novel image. Let's break it down.
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
