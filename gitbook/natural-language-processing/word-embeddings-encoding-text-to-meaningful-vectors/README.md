@@ -25,7 +25,7 @@
   * **Capturing Relationships:** Similar words have similar vector representations.
 * **Distributed Representation:** Indicates that the meaning of a word is spread across dimensions.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Training Embeddings:**
 
