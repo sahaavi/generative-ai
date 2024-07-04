@@ -4,7 +4,7 @@
 
 **NLP as an Input-Process-Output System:**
 
-<figure><img src=".gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Input:** Natural human languages (text or speech).
 * **Process:**
@@ -23,7 +23,7 @@
   * **Machine Translation:** Translating text from one language to another.
   * **Interactive Conversation:** Implementing chatbots for real-time interaction.
 
-<figure><img src=".gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You may already discover that NLP is a marriage between linguistics and artificial intelligence. It’s multidisciplinary, and involves linguistics, computer science, AI and ML, and statistics.
 
@@ -31,11 +31,11 @@ Natural language is a sequence. The order of the words matters. For example, loo
 
 Sequences can be the input and the output of a machine learning model.
 
-<figure><img src=".gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Broadly, sequence models fit into three types: one-to-sequence, sequence-to-one, and sequence-to-sequence. In a one-to-sequence model, one input is passed in, and the model generates a sequence as the output. A typical example is image captioning, where the description of an image, normally a few sentences, is generated based on this one image. In a sequence-to-one model, a sequence is passed in and one output is generated. For example, sentiment analysis is a typical sequence-to-one problem. Based on the comments of a few sentences, the machine can generate one rating. Finally, in a sequence-to-sequence model, sequences serve as both the input to and the output of the model. Google Translate is a typical example in dealing with sequence-to-sequence problems.
 
-<figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Challenge:** A computer only understands digits, so feeding text into an NLP model requires converting it into a numeric format while retaining its meaning.
 

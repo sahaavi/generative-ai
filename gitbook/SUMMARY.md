@@ -10,6 +10,7 @@
     * [ANN (Artificial Neural Network)](natural-language-processing/nlp-models/ann-artificial-neural-network.md)
     * [Deep Neural Network (DNN)](natural-language-processing/nlp-models/deep-neural-network-dnn.md)
     * [Recurrent Neural Network (RNN)](natural-language-processing/nlp-models/recurrent-neural-network-rnn.md)
+    * [LSTM](natural-language-processing/nlp-models/lstm.md)
     * [Activation Function](natural-language-processing/nlp-models/activation-function.md)
   * [NLP Architecture on GCP](natural-language-processing/nlp-architecture-on-gcp.md)
   * [NLP APIs on GCP](natural-language-processing/nlp-apis-on-gcp.md)
