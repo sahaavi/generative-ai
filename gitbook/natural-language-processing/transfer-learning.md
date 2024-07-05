@@ -10,7 +10,7 @@
 
 Using TensorFlow Hub:
 
-<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Installation and Import:**
   * Install the `tensorflow-hub` library.
@@ -23,7 +23,7 @@ Using TensorFlow Hub:
   * **Model Integration:** Use the module as a Keras layer in your model.
   * **Dimension Specification:** You can specify the number of dimensions for the embeddings, such as 50 in this example.
 
-<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Configuration:**
 

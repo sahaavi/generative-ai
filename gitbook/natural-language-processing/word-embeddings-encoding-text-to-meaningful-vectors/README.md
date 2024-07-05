@@ -11,7 +11,7 @@
 * **Vector Space Representation:**
   *
 
-      <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
   * **Words as Vectors:** Represent a word in a vector space with dimensions describing its properties.
   * **Distance and Similarity:** Similar words (e.g., queen and king) are close, while dissimilar words (e.g., queen and apple) are far apart.
   * **Analogies:** Capture relationships, e.g., King - Man + Woman = Queen.
@@ -25,9 +25,9 @@
   * **Capturing Relationships:** Similar words have similar vector representations.
 * **Distributed Representation:** Indicates that the meaning of a word is spread across dimensions.
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Training Embeddings:**
 

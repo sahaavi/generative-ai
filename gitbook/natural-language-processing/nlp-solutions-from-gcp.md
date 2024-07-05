@@ -2,12 +2,12 @@
 
 ### Contact Center Artificial Intelligence (CCAI)
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Purpose:** Enhance operational efficiency in contact centers using AI with minimal AI expertise required.
 * **Integration:** Seamlessly integrates with existing company infrastructure.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Key Features:**
 
@@ -22,7 +22,7 @@
 5. **Seamless Integration:**
    * Provides one-click integration with leading telephony providers like AT\&T for a smooth customer service experience.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Components of Contact Center AI:**
 
@@ -74,7 +74,7 @@
 
 **Processor Types and Selection:**
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Summary of Processor Benefits:**
 

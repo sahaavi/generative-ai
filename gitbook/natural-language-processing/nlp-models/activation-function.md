@@ -2,9 +2,9 @@
 
 An activation function has been used to prevent linearity or add non-linearity.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 What does it mean? Think about a neural network. Without activation functions, the predicted result y hat will always be a linear function of the input x regardless of the number of layers between input and output. For example, the value of the hidden layer h equals to a total of w1 times x1 and w2 times x2. Please note that to make the illustration easy, we ignored the bias component b, which you often see in other ML materials. The output y hat therefore equals to w3 times h, and eventually equals to a total of constant number a times x1 and a constant number b times x2. Therefore, the output Y is a linear combination of the input X. If y is a linear function of x, you can save all the hidden layers and just leave one input and one output! Also, you might already know that linear models do not perform well when handling comprehensive problems.
 
@@ -12,21 +12,21 @@ That’s why you must use activation functions to convert a linear network to a 
 
 ### Rectified Linear Unit (ReLU)
 
-<figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can use the rectified linear unit (or ReLU) function, which turns an input value to zero if it’s negative, or keeps the original value if it’s positive.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Sigmoid
 
-<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Sigmoid function, which turns the input to a value between 0 and 1.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/sig.png" alt=""><figcaption></figcaption></figure>
 
@@ -46,15 +46,15 @@ For instance, instead of a model just predicting a yes or a no, such as, "Will a
 
 ### Hyperbolic tangent (Tanh)
 
-<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Hyperbolic tangent (Tanh) function, which shifts the sigmoid curve and generates a value between -1 and +1.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Softmax
 
-<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Think about sigmoid: it generates a value from zero to one and is used for binary classification in logistic regression models. An example for this would be deciding whether an email is spam. What if you have multiple categories, such as GitHub, NYTimes, and TechCrunch? Here you must use softmax, which is the activation function for multi-class classification. It maps each output to a \[0,1] range in a way that the total adds up to 1.
 
