@@ -2,11 +2,11 @@
 
 An ANN is often called neural network (NN) or shallow neural network. Put simply, you have three layers in an ANN: an input layer, a hidden layer, and an output layer. Each node represents a neuron. The lines between neurons stimulate synapses, which is how information is transmitted in a human brain. Let’s use the lab as an example. The input layer includes text, or more specifically, the article titles from multiple resources, and the output layer shows the probability whether this article title belongs to different media: GitHub, NYTimes (short for the New York Times), and TechCrunch.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 How does an ANN learn from examples and make predictions?
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let’s assume you have two input neurons or nodes, one hidden neuron, and one output neuron. Above the link between neurons, there are weights or parameters. The weights retain the information that a neural network learned through the process and they are the mysteries that a neural network aims to discover. The first step is to calculate the weighted sum, which equals to the total of the multiplication of input values and weights. It normally includes a bias component bi. However, to focus on the core idea, we’ll ignore it for now. The second step is to apply an activation function to the weighted sum. What is an activation function and why do you need it? Let’s pause your curiosity for just a moment and we’ll introduce the activation function in a few slides. For now, you must know that an activation function is used to prevent linearity. In the next two steps, the same process is applied to the output layer. The third step is to calculate the weighted sum assuming you have multiple neurons in the hidden layers. And the fourth step is to apply an activity function to the weighted sum. This activation function can be different from those applied to the hidden layers. The result is the predicted y, which consists of the output layer. You use y hat as the predicted result and y as the actual result.
 
@@ -64,15 +64,15 @@ For the illustration purpose, you use a simple example with two input neurons (n
 
 ### Code
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In modern architecture it reduced down.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 

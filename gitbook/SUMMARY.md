@@ -15,6 +15,7 @@
     * [Encoder-decoder architecture](natural-language-processing/nlp-models/encoder-decoder-architecture.md)
     * [Attention Mechanism](natural-language-processing/nlp-models/attention-mechanism.md)
     * [Transformers](natural-language-processing/nlp-models/transformers.md)
+    * [BERT](natural-language-processing/nlp-models/bert.md)
     * [Activation Function](natural-language-processing/nlp-models/activation-function.md)
   * [NLP Architecture on GCP](natural-language-processing/nlp-architecture-on-gcp.md)
   * [NLP APIs on GCP](natural-language-processing/nlp-apis-on-gcp.md)

@@ -15,7 +15,7 @@
   * **Skip-Gram:** Predicts the context words given the center word.
   *
 
-      <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let’s look at how these two algorithms work.&#x20;
 
@@ -23,7 +23,7 @@ Let’s look at how these two algorithms work.&#x20;
 
 Let’s go back to our favorite example, “A dog is chasing a person.” Assume you miss the center word chasing, and CBOW tries to use the context words, Dog, is, a, and person to predict the missing word.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This is as intuitive as filling in a blank puzzle on a quiz. How does it work technically?
 
@@ -33,25 +33,25 @@ Let’s walk through the two primary steps: preparing the dataset and training t
   * You run a sliding window of size 2K+1 over the entire text corpus. Corpus\[Latin word] means a collection of words or a body of words.
   *
 
-      <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
   *   Let's say K=2. You start with the first word A. To run a 2K+1 window and K equals to 2, you have two words before and after the center word A. No words before A but two words after A. Therefore, the two words after A, dog and is, will be used to predict A, which is sometimes called the label word.
 
-      <figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
   *   Then the window shifts to the second word dog as the center word. Dog will be predicted by the word A before it and the words is and chasing after it. Therefore, three words: a, is, and chasing will be used to predict the label word “dog.”
 
-      <figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
   *   The same process continues till the last word person is the center word. Now the training data is ready.
 
-      <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Step 2: train the neural network - specifically a narrow neural network—to learn the embedding matrix.
   * Narrow means there’s only one hidden layer in this model instead of multiple hidden layers, as in a deep neural network.
   *   The goal is to learn the embedding matrix Ev\*d , where v is the size of the vocabulary and d is the number of dimensions.
 
-      <figure><img src="../../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
       For example in the sentence “A dog is chasing a person,” you have five different words: a, dog, is, chasing, and person. Therefore, v equals to 5. The value of d depends on the number of features that you want the neural work to learn to represent each word. It can be anywhere between one to four digits. Normally, when the number is larger, the model will be more refined; although it costs more computational resources. d is also a hyperparameter that you can tune when using Google’s pre-trained word2vec embedding, which means that you can try different numbers to see which one produces the best result. To make the visual simple, let’s say d equals to 3 here.
 
-      <figure><img src="../../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
   *   Therefore, the matrix in this example is 5 by 3 and it looks like this. Each w represents a weight that you want to train the neural network to learn.
 
       <figure><img src="../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
