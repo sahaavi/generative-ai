@@ -6,12 +6,16 @@
 * **Describing a Person:** You could mention IDs (e.g., driver’s license), physical stats (e.g., gender, height, weight), relationships (e.g., family, friends), social status (e.g., followers), hobbies, and even their pet.
 * **Describing a Word:** For instance, "queen" could be described by its nature, origin, and associations like excitement and trust using quantitative dimensions.
 
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+
 **Concept:**
 
 * **Vector Space Representation:**
   *
 
-      <figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
   * **Words as Vectors:** Represent a word in a vector space with dimensions describing its properties.
   * **Distance and Similarity:** Similar words (e.g., queen and king) are close, while dissimilar words (e.g., queen and apple) are far apart.
   * **Analogies:** Capture relationships, e.g., King - Man + Woman = Queen.
@@ -27,7 +31,7 @@
 
 <figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Training Embeddings:**
 

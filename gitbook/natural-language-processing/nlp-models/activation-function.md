@@ -2,7 +2,7 @@
 
 An activation function has been used to prevent linearity or add non-linearity.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@ That’s why you must use activation functions to convert a linear network to a 
 
 You can use the rectified linear unit (or ReLU) function, which turns an input value to zero if it’s negative, or keeps the original value if it’s positive.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Sigmoid
 
@@ -26,7 +26,7 @@ Sigmoid function, which turns the input to a value between 0 and 1.
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/sig.png" alt=""><figcaption></figcaption></figure>
 
@@ -50,7 +50,7 @@ For instance, instead of a model just predicting a yes or a no, such as, "Will a
 
 Hyperbolic tangent (Tanh) function, which shifts the sigmoid curve and generates a value between -1 and +1.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Softmax
 

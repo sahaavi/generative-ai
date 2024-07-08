@@ -2,7 +2,7 @@
 
 **Challenge:** How to represent text in a numeric format while retaining its meaning.
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Subproblems:**
 
@@ -18,7 +18,7 @@
 
 Modern Text Representation Techniques:
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **One-Hot Encoding:**
 
@@ -34,7 +34,7 @@ Modern Text Representation Techniques:
   * Assume you have a vocabulary that includes six words: Vocabulary: \["dog", "chase", "person", "my", "cat", "run"]
   *
 
-      <figure><img src="../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
   * By conducting one-hot encoding, you converted the sentence “A dog is chasing a person” into a matrix that an ML model takes.![](<../.gitbook/assets/image (21) (1) (1) (1).png>)
 * **Advantages:**
   * Intuitive and easy to implement.
