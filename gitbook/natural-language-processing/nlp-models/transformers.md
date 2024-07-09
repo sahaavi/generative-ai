@@ -2,6 +2,10 @@
 
 If you recall from module one, the recent breakthroughs in the past ten years include the usage of neural networks to present text such as word2vec and n-grams in 2013. In 2014, the development of sequence to sequence models such as RNN and LSTMs helped improve the performance of ML models on NLP tasks such as translation and text classification. In 2015, the excitement came with the attention mechanism and the models built based on it such as transformers and BERT. You’ll focus on Transformers in this lesson.
 
+<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+
 Although all the models before Transformers were able to represent words as vectors, these vectors remain constant and they don’t change based on context. For example, bank in river bank versus bank in bank robber have the same vector representation. To solve this problem, it’s essential to develop a text representation that considers the word context and a model that learns how certain words are aligned to each other. Attention mechanism helps improve the performance of machine translation applications.
 
 Transformers are built based on the attention mechanism.
