@@ -38,5 +38,6 @@
   * [Gemini for Data Scientists and Analysts](gemini/gemini-for-data-scientists-and-analysts/README.md)
     * [Analyze Data with Gemini Assistance](gemini/gemini-for-data-scientists-and-analysts/analyze-data-with-gemini-assistance.md)
     * [Gemini for Data Scientists](gemini/gemini-for-data-scientists-and-analysts/gemini-for-data-scientists.md)
+  * [Gemini Use Cases](gemini/gemini-use-cases.md)
 * [Image Generation](image-generation.md)
 * [Applications](applications.md)
