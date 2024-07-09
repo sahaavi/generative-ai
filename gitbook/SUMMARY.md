@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Natural Language Processing](README.md)
+* [Generative Modeling](README.md)
+* [Natural Language Processing](<README (1).md>)
   * [Tokenization](natural-language-processing/tokenization.md)
   * [Bag of Words](natural-language-processing/bag-of-words.md)
   * [Word Embeddings: Encoding Text to Meaningful Vectors](natural-language-processing/word-embeddings-encoding-text-to-meaningful-vectors/README.md)

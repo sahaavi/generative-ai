@@ -104,53 +104,53 @@ ScaNN, Scalable Approximate Nearest Neighbor, is a combination of these techniqu
 
 ## Vector Search in Action
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Assume you are a data scientist and would like to improve the customer searching experience and help them find similar items. First, you get embeddings for each item, next, build an index on vector search with the embeddings and last, you can run a query on Vector Search to find similar items by their names. Let's explore how this works.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 The BigQuery table for items such as pants and socks is shown here. BigQuery is the primary data warehouse product on Google Cloud.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can easily get text embeddings in BigQuery by using the ML.EMBED\_TEXT function. Although the process is straightforward, the results are cutting edge. The large language model powered text embeddings are carefully organized in the embedding space with human level intelligence and common sense.&#x20;
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 You then export the embeddings to a JSON file and store them on Cloud Storage. Each embedding has 768 dimensions. Note that the number of dimensions is a hyper parameter that you can specify when you call the embedding API.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Afterward create an index by invoking the Vector Search APIs, you can designate the search algorithm, which is TreeAh in the demo, establish the Cloud Storage address of the JSON file and include parameters like the dimensions, number of items to retrieve and similarity measurement type. Google provides a rapid indexing service, which only takes a few minutes to index three digit megabytes.&#x20;
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 The final step is to deploy the index to an endpoint. The endpoint receives query requests from the front end and executes the Vector Search. The Vector Search engine is now ready to serve.&#x20;
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 To begin, provide the embedding of an item to the search engine. In a matter of milliseconds, you will receive a list of similar items. Please note that this is not a keyword search, but a semantic search. This means that the search engine understands the meaning of the search item and finds the closest information. This can provide a much better user experience for exploring and finding relevant items. Vector Search is also very easy to use. You can do it with just a few clicks or simple codings.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Vector Search with RAG
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Vector Search can be used to feed the LLM with relevant context in real time. The architecture to accomplish this process is called RAG, which stands for Retrieval Augmented Generation. To do this, you take the input prompt, query the real-time information using Vector Search, retrieve the top results, and append them to the original prompt. You then pass this augmented prompt with real-time context information to the LLM. Now, the LLM has not only the original user query, but also additional information that it can use to answer the query.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 The RAG system can engage in conversations like this one using knowledge gained through Vector Search to respond to questions.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Resources
 
