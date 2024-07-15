@@ -33,6 +33,7 @@
     * [Text Extraction with Generative Models](large-language-model-llm/prompts/text-extraction-with-generative-models.md)
     * [Text Summarization with Generative Models](large-language-model-llm/prompts/text-summarization-with-generative-models.md)
   * [Function Calling](large-language-model-llm/function-calling.md)
+  * [Retrieval Augmented Generation (RAG)](large-language-model-llm/retrieval-augmented-generation-rag.md)
 * [Gemini](gemini/README.md)
   * [Intro to Gemini Python](gemini/intro-to-gemini-python.md)
   * [Embeddings](gemini/embeddings.md)
